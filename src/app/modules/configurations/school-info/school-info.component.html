@@ -1,1 +1,97 @@
-<p>school-info works!</p>
+
+<div class="container-fluid mt-5">
+    <div class="col-12 school-info p-5">
+        <h1> School Informtions</h1>
+        <div class="col-12">
+          <hr>
+        </div>
+
+        <form [formGroup]="schoolInfoForm" (ngSubmit)="onSubmit()" novalidate > 
+            <div class=" d-flex flex-column mb-5">
+                <label for="">School Name</label>
+                <div class=" input-group-lg ">
+                    <input type="text" formControlName="shcoolName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class=" d-flex flex-column mb-5">
+                <label for="">School Address</label>
+                <div class=" input-group-lg ">
+                    <input type="text" formControlName="schoolAddress" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class=" d-flex flex-column mb-5">
+                <label for="">School Website</label>
+                <div class="input-group-lg ">
+                    <input type="text" formControlName="schooWebsite" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class=" d-flex flex-column mb-5">
+                <label for="">School Logo</label>
+                <div class="input-group-lg">
+                    <div class="custom-file">
+                      <input formControlName="schoolLogo" type="file" class="custom-file-input" id="inputGroupFile02">
+                      <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                    </div>
+                  </div>
+              </div>
+             <div class="col-12">
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+             </div>
+        </form>
+    </div>
+
+    <div class="col-12 mt-5 p-5 mb-3" >
+      <form [formGroup]="schoolInfoForm" (ngSubmit)="onSubmit()" novalidate > 
+        <div class=" d-flex flex-column mb-5">
+          <label for="">Academic Year</label>
+          <div class=" input-group-lg d-flex flex-row align-items-center">
+              <input type="text" formControlName="shcoolName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+              <a >
+                <div class="icon  ml-3">
+                  <i class="fa fa-plus text-center d-flex align-items-center justify-content-center pt-1" aria-hidden="true"></i>
+                </div>
+              </a>
+          </div>
+        </div>
+    </form>
+    <div class="table">
+      <table class="table table-striped text-center">
+        <thead>
+          <tr>
+            <th scope="col">Academic Year</th>
+            <th scope="col">Status</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of academicYearData">
+            <td>{{item.yeaar}}</td>
+            <td>{{item.status}}</td>
+            <td>
+              <div class="dropdown">
+                <button class="action" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                 <button class="mb-1 btn-block d-flex justify-content-start align-items-center">
+                  <i class="fa fa-pencil-square-o mr-2" aria-hidden="true"></i>
+                  edit
+                 </button>
+                 <button class="mb-1 btn-block d-flex justify-content-start align-items-center">
+                  <i class="fa fa-trash-o mr-2" aria-hidden="true"></i>
+                  delete
+                 </button>
+                
+                </div>
+              </div>
+            </td>
+          </tr>
+     
+        </tbody>
+      </table>
+    </div>
+    </div>
+    
+</div>

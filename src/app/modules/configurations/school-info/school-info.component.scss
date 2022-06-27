@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color: white;
+}
+.btn-primary{
+    width: 120px;
+    height: 40px;
+    background-color: #53869e;
+}
+.action{
+    background:none;
+    border: none;
+
+}
+.btn-block{
+    background:none;
+border: none; 
+
+}
+
+.btn-block:hover{
+    border-left: solid 5px #53869e; 
+    background-color: #f2f7ff;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid #53869e;
+}

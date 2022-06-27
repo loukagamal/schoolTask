@@ -1,0 +1,28 @@
+.container-fluid{
+    background-color: white;
+    .sidbar{
+        height: 100vh;
+        border-right: 1px solid black;
+    }
+
+}
+
+.btn-primary{
+    background-color: white;
+    border: none;
+    color: black;
+}
+ul{
+    li{
+       list-style: none; 
+    }
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover{
+        background-color: steelblue;
+ }

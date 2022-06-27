@@ -1,5 +1,30 @@
+.container-fluid{
+    border-bottom: solid 1px black;
+}
 .icon-user{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.notifications{
+    position: relative;
+
+.fa-bell-o{
+   font-size: xx-large;
+   color: black;
+}
+    .conter{
+        text-align: center;
+        color:wheat;
+position: absolute;
+left: 13px;
+right: 0;
+top: -7px;
+bottom: 0;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: red;
+    }
+
 }

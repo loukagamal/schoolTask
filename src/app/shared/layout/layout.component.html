@@ -2,11 +2,11 @@
     <div class="col-12 p-0 ">
         <app-navbar></app-navbar>
     </div>
-    <div class="col-12">
-        <div class="col-2 sidbar">
+    <div class="col-12 d-flex p-0 m-0 justify-content-between flex-row">
+        <div class="col-4 col-md-2 sidbar">
 <app-sidnav></app-sidnav>
         </div>
-        <div class="col-10 content">
+        <div class="col-8 col-md-10 content">
             <div class="h-100 w-100 mx-0" id="routerContainer">
                 <router-outlet #o="outlet"></router-outlet>
               </div>

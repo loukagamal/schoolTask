@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "yeaar": "2022-2023",
+        "status": "Activate"
+
+    },
+
+    {
+        "id": "2",
+        "yeaar": "2021-2022",
+        "status": "Endend"
+
+    },
+    {
+        "id": "3",
+        "yeaar": "2020-2021",
+        "status": "Endend"
+
+    }
+]
