@@ -28,8 +28,8 @@ export class SchoolInfoComponent implements OnInit {
     })
   }
   onSubmit(){
-   console.log("data" +this.schoolInfoForm.value);
-   this.schoolService.setAcadimicYear(this.schoolInfoForm.value);
+
+    this.schoolService.setAcadimicYear(this.schoolInfoForm.value);
    
   }
 
@@ -37,7 +37,6 @@ export class SchoolInfoComponent implements OnInit {
 
     this.academicService.getAllAAcademicYear().subscribe((res: any) => {
       this.academicYearData = res;
-      console.log(res);
     
     });
 
