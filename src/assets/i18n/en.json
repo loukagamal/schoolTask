@@ -1,0 +1,35 @@
+{
+  "home": {
+    "home_page": "Home Page"
+  },
+  "navbar": {
+    "log_out": "Log Out",
+    "another_action": "Another Action",
+    "action": "Action",
+    "english": "En",
+    "arabic": "Ar"
+  },
+  "sidbar": {
+    "academic": "Academic",
+    "configurations": "Configurations",
+    "school_info": "School Info",
+    "school_informtions": "School Informtions",
+    "add_divisions": "Add Divisions",
+    "divisions_details": "Divisions Details"
+  },
+
+  "school": {
+    "configurations": "Configurations",
+    "school_name": "School Name",
+    "school_address": "School Address",
+    "school_website": "School Website",
+    "school_logo": "School Logo",
+    "academic_year": "Academic Year",
+    "school_info": "School Info",
+    "school_informtions": "School Informtions",
+    "status": "Status",
+    "action": "Action",
+    "save": "Save",
+    "choose_file": "Choose file"
+  }
+}

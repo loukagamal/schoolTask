@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+.light-theme {
+    --background-color: #ffffff;
+    --primary-background-color: #f8f6f6;
+    --secondary-background-color: #53869e;
+    --hover-color:#73adcc;
+    --text-color: #1a1a1a;
+    --primary-color-text:#2e2b2b;
+    --secondary-color-text:#3885a7;
+    
+    
+  
+  }
+  
+  .dark-theme {
+    --background-color: #000000;
+    --primary-background-color: #262323;
+    --secondary-background-color: #2a132a;
+    --hover-color:#0a4260;
+    --text-color: #ffffff;
+    --primary-color-text:#ffffff;
+    --secondary-color-text:#ddeff6;
+  }

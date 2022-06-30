@@ -1,0 +1,36 @@
+{
+  "home": {
+    "home_page": "الصفحة الرئيسية "
+  },
+  "navbar": {
+    "log_out": "تسجيل خروج",
+    "another_action": "عمل مختلف",
+    "english": "En",
+    "arabic": "sAr",
+    "action": "عمل"
+
+  },
+  "sidbar": {
+    "academic": "أكاديمي",
+    "configurations": "التكوينات",
+    "school_info": "معلومات المدرسة",
+    "school_informtions": "معلومات المدرسة ",
+    "add_divisions": "إضافة أقسام",
+    "divisions_details": "تفاصيل الأقسام"
+  },
+
+  "school": {
+    "school_name": "اسم المدرسة",
+    "configurations": "التكوينات",
+    "school_address": "عنوان المدرسة",
+    "school_website": "موقع المدرسة",
+    "school_info": "معلومات المدرسة",
+    "school_informtions": "معلومات المدرسة ",
+    "school_logo": "شعار المدرسة",
+    "academic_year": "السنة الأكاديمية",
+    "status": "الحالة",
+    "action": "عمل",
+    "save": "حفظ",
+    "choose_file": "اختر ملف"
+  }
+}

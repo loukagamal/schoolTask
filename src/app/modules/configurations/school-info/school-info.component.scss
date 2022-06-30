@@ -1,17 +1,22 @@
+
+
+
+
 .school-info{
-    background-color: white;
+    background-color:var(--background-color);
     .school-title{
-        color: #3a86a8;
+        color: var(--secondary-color-text);
     }
     .school-link{
       
-        color: #3a86a8; 
+        color: var(--secondary-color-text);
     }
 }
+
 .btn-primary{
     width: 120px;
     height: 40px;
-    background-color: #53869e;
+    background-color:var(--secondary-background-color);
 }
 .action{
     background:none;
@@ -25,8 +30,8 @@ border: none;
 }
 
 .btn-block:hover{
-    border-left: solid 5px #53869e; 
-    background-color: #f2f7ff;
+    border-left: solid 5px var(--secondary-background-color); 
+    background-color:var(--primary-background-color);
 }
 
 .icon{
@@ -36,6 +41,6 @@ border: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: solid #53869e;
+    border: solid var(--secondary-color-text);
 }
 

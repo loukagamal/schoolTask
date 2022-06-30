@@ -6,6 +6,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { SidnavComponent } from './layout/sidnav/sidnav.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -17,7 +18,9 @@ import { FooterComponent } from './layout/footer/footer.component';
   ],
   imports: [
     CommonModule,
-    SharedRoutingModule
+    SharedRoutingModule,
+    TranslateModule,
+
   ]
 })
 export class SharedModule { }

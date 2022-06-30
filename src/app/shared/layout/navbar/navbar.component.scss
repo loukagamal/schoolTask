@@ -1,5 +1,5 @@
 .container-fluid{
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px var(--secondary-background-color);
 }
 .icon-user{
     width: 40px;
@@ -11,7 +11,7 @@
 
 .fa-bell-o{
    font-size: xx-large;
-   color: black;
+   color:var( --text-colo);
 }
     .conter{
         text-align: center;
@@ -27,4 +27,10 @@ border-radius: 50%;
 background-color: red;
     }
 
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    margin: 2rem 1rem 0rem 2rem;
 }
