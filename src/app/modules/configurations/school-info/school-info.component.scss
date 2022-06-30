@@ -1,6 +1,9 @@
 
 
 
+.configurations{
+    color: var(--secondary-color-text);
+}
 
 .school-info{
     background-color:var(--background-color);
@@ -9,8 +12,15 @@
     }
     .school-link{
       
-        color: var(--secondary-color-text);
+        background-color: var(--secondary-color-text);
     }
+}
+.form-control{
+    background-color: var(--primary-background-color);
+}
+.custom-file-label{
+    background-color: var(--primary-background-color);
+
 }
 
 .btn-primary{
@@ -44,3 +54,10 @@ border: none;
     border: solid var(--secondary-color-text);
 }
 
+.schoolInfoForm{
+    color: var(--text-color);
+
+}
+.label-text{
+    color: var(--text-color);
+}

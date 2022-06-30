@@ -5,7 +5,7 @@
     <h2 class="configurations" >Configurations</h2> 
     <a class="pl-2 school-link" [routerLink]="['/app/configurations']" translate> <h3 >school_info</h3></a>
   </div>
-    <div class="col-12 school-info p-0">
+    <div class="col-12 school-info p-0 ">
       <div class="col-12  p-5">
         <h1 class="school-title" translate>school.school_informtions</h1>
         <div class="col-12">
@@ -14,29 +14,29 @@
 
         <form [formGroup]="schoolInfoForm" (ngSubmit)="onSubmit()" novalidate > 
             <div class=" d-flex flex-column mb-5">
-                <label for="" translate>school.school_name</label>
+                <label for="" class="label-text" translate>school.school_name</label>
                 <div class=" input-group-lg ">
                     <input type="text" formControlName="shcoolName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                 </div>
               </div>
               <div class=" d-flex flex-column mb-5">
-                <label for="" translate>school.school_address</label>
+                <label for="" class="label-text" translate>school.school_address</label>
                 <div class=" input-group-lg ">
                     <input type="text" formControlName="schoolAddress" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                 </div>
               </div>
               <div class=" d-flex flex-column mb-5">
-                <label for=""translate>school.school_website</label>
+                <label for="" class="label-text" translate>school.school_website</label>
                 <div class="input-group-lg ">
                     <input type="text" formControlName="schooWebsite" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                 </div>
               </div>
               <div class=" d-flex flex-column mb-5">
-                <label for="" translate>school.school_logo</label>
+                <label for="" class="label-text" translate>school.school_logo</label>
                 <div class="input-group-lg">
                     <div class="custom-file">
                       <input formControlName="schoolLogo" type="file" class="custom-file-input" id="input">
-                      <label class="custom-file-label" for="input" translate>school.choose_file</label>
+                      <label class="custom-file-label" for="input label-text file-input" translate>school.choose_file</label>
                     </div>
                     
                   </div>
@@ -44,16 +44,16 @@
               </div>
              <div class="col-12">
                 <div class="d-flex justify-content-end">
-                    <button type="submit" class="btn btn-primary"translate>school.save</button>
+                    <button type="submit" class="btn btn-primary label-text"translate>school.save</button>
                 </div>
              </div>
         </form>
     </div>
 
-    <div class="col-12 mt-5 p-5 mb-3" >
+    <div class="col-12 mt-5 p-5 mb-3 schoolInfoForm" >
       <form [formGroup]="schoolInfoForm" (ngSubmit)="onSubmit()" novalidate > 
         <div class=" d-flex flex-column mb-5">
-          <label for="" translate>school.academic_year</label>
+          <label for="" class="label-text" translate>school.academic_year</label>
           <div class=" input-group-lg d-flex flex-row align-items-center">
               <input type="text" formControlName="shcoolName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
               <a >
@@ -68,15 +68,15 @@
       <table class="table table-striped text-center">
         <thead>
           <tr>
-            <th scope="col" translate>school.academic_year</th>
-            <th scope="col" translate>school.status</th>
-            <th scope="col" translate>school.action</th>
+            <th scope="col label-text" translate>school.academic_year</th>
+            <th scope="col label-text" translate>school.status</th>
+            <th scope="col label-text" translate>school.action</th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let item of academicYearData">
-            <td>{{item.yeaar}}</td>
-            <td>{{item.status}}</td>
+            <td class="label-text">{{item.yeaar}}</td>
+            <td class="label-text">{{item.status}}</td>
             <td>
               <div class="dropdown">
                 <button class="action" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
